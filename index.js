@@ -21,7 +21,7 @@ async function createPost(graph) {
 async function main() {
   const endpoint = "localhost";
 
-  console.log(`wss://${ep2}:8182/gremlin`);
+  console.log(`using endpoint wss://${endpoint}:8182/gremlin`);
 
   console.log("conneceting");
 
